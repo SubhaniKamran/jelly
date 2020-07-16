@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="Scripts/jquery-3.4.1.min.js"></script>
+    <link href="Content/bootstrap.css" rel="stylesheet" />
+    <script src="Scripts/bootstrap.min.js"></script>
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        @media screen and (mix-width: 600px) {
+        #bd {
+            border-style:solid;border-color:white
+         }
+         }
+        </style>
+        
+
+</head>
+<body class="bg-gray-100">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 col-md-3   "></div>
+            <div class="col-lg-4 col-xs-12 col-sm-12 col-md-6 " style="margin-top:150px">
+                <div class="hidden-lg">
+                    <div style="margin-top:400px"></div>
+                </div>
+               
+                <div>
+
+
+
+                    <form action="Page2.html" style=" margin-left:20px;margin-bottom:20px;margin-right:20px; margin-top:50px" class="form-signin">
+                        <div class="bg-gray-400 rounded-full h-30 w-25 mb-8">
+                        <img class="img-responsive " src="Content/jelly.png" />
+                       </div>
+                        <label for="inputEmail" class="sr-only">Email address</label>
+                        <div class="hidden-md hidden-sm hidden-xs ">
+                            <input STYLE="background:transparent" type="email" id="inputEmail" class="form-control" placeholder="Email address">
+                        </div>
+                        <div class="hidden-lg">
+                            <input STYLE="background:transparent; height:70px" type="email" id="inputEmail" class="form-control" placeholder="Email address">
+                        </div>
+
+                        <br />
+                        <label for="inputPassword" class="sr-only">Password</label>
+                        <div class="hidden-md hidden-sm hidden-xs ">
+                            <input STYLE="background:transparent" type="password" id="inputPassword" class="form-control" placeholder="Password">
+                        </div>
+                        <div class="hidden-lg">
+                            <input STYLE="background:transparent; height:70px" type="password" id="inputpassword" class="form-control" placeholder="Password">
+                        </div>
+                        <div class="checkbox">
+                            <label>
+                                <input align="left" type="checkbox" value="remember-me">
+                            </label>
+                            Remember me
+                        </div>
+                        <div class="hidden-md hidden-sm hidden-xs ">
+                            <button  class="btn btn-lg btn-danger btn-block" type="submit">Sign in</button>
+                        </div>
+                        <div class="hidden-lg">
+                            <button style="height:70px" class="btn btn-lg btn-danger btn-block" type="submit">Sign in</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div> <!-- /container -->
+</body>
+</html>
